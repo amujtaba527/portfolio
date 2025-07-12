@@ -13,13 +13,13 @@ const projects = [
     button: "Not Available"
   },
   {
-    title: "Complaints Management System",
-    description: "Developed a comprehensive complaint tracking system with automated workflow and real-time notifications.",
+    title: "Ecommerce Website",
+    description: "A modern e-commerce website built with Next.js, TypeScript, and Tailwind CSS.",
     technologies: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
     category: "Full-Stack",
     status: "Production",
-    github: "https://github.com/amujtaba527/ComplaintManagementSystem",
-    link: "https://complaint-manage.vercel.app/"
+    github: "https://github.com/amujtaba527/nextjs-ecomm",
+    link: "https://nextjs-ecomm.vercel.app/"
   },
   {
     title: "Mobile Chat Application",
