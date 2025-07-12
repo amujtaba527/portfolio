@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+# Ahmad Mujtaba's Portfolio
 
-## Project info
+Welcome to my personal portfolio project! This website showcases my skills, featured projects, and ways to connect with me. Built with a modern tech stack, it's designed to highlight my journey as a developer, my technical expertise, and my passion for building impactful solutions.
 
-**URL**: https://lovable.dev/projects/6e96b384-66d7-447a-b98e-ab9b107419e5
+---
 
-## How can I edit this code?
+## 🚀 Features
+- **About:** Learn more about my background, values, and approach to software development.
+- **Skills:** Explore my technical expertise across frontend, backend, databases, AI/ML, and more.
+- **Projects:** Discover a curated selection of my recent and most impactful projects.
+- **Contact:** Find ways to connect for collaboration, opportunities, or just to say hello!
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🛠️ Tech Stack
+- **Frontend:** React, Next.js, TypeScript, Tailwind CSS, Flutter
+- **Backend:** FastAPI, Node.js, Python, Java
+- **Database & Tools:** PostgreSQL, MongoDB, Docker, Git, Firebase
+- **AI/ML & Other:** LangChain, RESTful APIs, C++
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6e96b384-66d7-447a-b98e-ab9b107419e5) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🌟 Featured Projects
 
-**Use your preferred IDE**
+1. **AI Assistant Platform**  
+   Built an intelligent AI assistant using LangChain and FastAPI with natural language processing and contextual responses.  
+   [GitHub](https://github.com/amujtaba527/AIChatBot)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. **Ecommerce Website**  
+   Modern e-commerce platform built with Next.js, TypeScript, and Tailwind CSS.  
+   [Live Demo](https://nextjs-ecomm.vercel.app/) | [GitHub](https://github.com/amujtaba527/nextjs-ecomm)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+3. **Mobile Chat Application**  
+   Cross-platform chat app with anonymous messaging, offline sync, and intuitive UI using Flutter and Firebase.  
+   [GitHub](https://github.com/amujtaba527/chat_app)
 
-Follow these steps:
+4. **Sundown Landing Page**  
+   Clean, minimalist landing page for startups or products.  
+   [Live Demo](https://frontend-sundown.vercel.app/) | [GitHub](https://github.com/amujtaba527/frontend-sundown)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📦 Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/amujtaba527/portfolio.git
+   cd portfolio
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   bun install
+   ```
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   bun run dev
+   ```
+4. **Open [http://localhost:5173](http://localhost:5173) to view it in your browser.**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🤝 Contact
+- **Email:** amujtaba527@gmail.com
+- **LinkedIn:** [linkedin.com/in/amujtaba527](https://linkedin.com/in/amujtaba527)
+- **GitHub:** [github.com/amujtaba527](https://github.com/amujtaba527)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Feel free to reach out for collaborations, opportunities, or just to connect!
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6e96b384-66d7-447a-b98e-ab9b107419e5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+> Building the future, one line of code at a time.
