@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 
 const greetings = [
+    "",
   "Hello!",
   "¡Hola!",
   "Bonjour!",
   "Ciao!",
-  "Hallo!",
   "مرحبا!",
   "Salam!",
+  "Hallo!",
   "नमस्ते!",
   "こんにちは!",
   "안녕하세요!",
