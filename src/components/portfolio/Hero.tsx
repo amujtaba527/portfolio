@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail, View } from "lucide-react";
 export const Hero = () => {
-  return <section id="home" className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 relative overflow-hidden">
+  return <section id="home" className="min-h-screen flex flex-col items-center justify-center px-6 md:px-12 lg:px-24 relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-surface to-background opacity-50" />
       
-      <div className="relative z-10 max-w-7xl mx-auto w-full">
+      <div className="flex flex-col justify-center items-center relative z-10 max-w-7xl mx-auto w-full text-center">
         <div className="animate-fade-in">
           {/* Main heading */}
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold leading-[0.85] mb-8">
@@ -16,7 +16,7 @@ export const Hero = () => {
           </h1>
           
           {/* Subtitle */}
-          <div className="mb-12 max-w-2xl">
+          <div className="mb-12 max-w-2xl mx-auto text-center">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium mb-4 text-text-secondary">
               Software Developer
             </h2>
@@ -24,7 +24,7 @@ export const Hero = () => {
           </div>
           
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-6 mb-16">
+          <div className="flex flex-col sm:flex-row gap-6 mb-16 justify-center items-center">
             <Button size="lg" className="group text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-medium transition-all duration-300 hover:shadow-glow" onClick={() => {
               const contactSection = document.querySelector("#projects");
               if (contactSection) {
@@ -46,7 +46,7 @@ export const Hero = () => {
           </div>
           
           {/* Social Links */}
-          <div className="flex gap-6">
+          <div className="flex gap-6 justify-center items-center">
             <a href="#" className="w-12 h-12 rounded-full border border-border flex items-center justify-center hover:border-primary hover:bg-surface-hover transition-all duration-300 group">
               <Github className="w-5 h-5 group-hover:text-primary transition-colors" onClick={() => window.open("https://github.com/amujtaba527")}/>
             </a>
