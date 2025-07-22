@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 export const Hero = () => {
   return <section id="home" className="min-h-screen flex flex-col items-center justify-center px-6 md:px-12 lg:px-24 relative overflow-hidden">
     {/* Background gradient */}
-    <div className="absolute inset-0 bg-gradient-to-br from-background via-surface to-background opacity-50" />
+    <div className="animated-gradient-bg" />
 
     <div className="flex flex-col justify-center items-center relative z-10 max-w-7xl mx-auto w-full text-center">
       <div className="animate-fade-in">
@@ -48,7 +48,7 @@ export const Hero = () => {
             <ArrowDown className="ml-2 w-5 h-5 group-hover:translate-y-1 transition-transform" />
           </Button>
 
-          <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-border hover:bg-surface-hover transition-all duration-300" onClick={() => {
+          <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-border hover:bg-surface-hover transition-all duration-300 hover:text-primary" onClick={() => {
             const contactSection = document.querySelector("#contact");
             if (contactSection) {
               contactSection.scrollIntoView({ behavior: "smooth" });
