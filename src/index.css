@@ -8,7 +8,6 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Ochi-inspired Dark Portfolio Design System */
     --background: 20 14% 8%;
     --foreground: 20 6% 95%;
 
@@ -39,7 +38,6 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* Custom Ochi-inspired tokens */
     --surface: 20 14% 12%;
     --surface-hover: 20 14% 16%;
     --text-secondary: 20 6% 70%;

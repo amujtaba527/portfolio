@@ -35,13 +35,8 @@ export const About = () => {
           {/* Right side - Visual element */}
           <div className="relative">
             <div className="w-full h-96 bg-gradient-to-br from-primary/20 to-surface rounded-2xl border border-border flex items-center justify-center">
-              <div className="text-center space-y-4">
-                <div className="w-24 h-24 bg-primary rounded-full mx-auto flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary-foreground">AM</span>
-                </div>
-                <p className="text-muted-foreground">
-                  Building the future, one line of code at a time
-                </p>
+              <div className="text-center space-y-1">
+                  <img src="/about.webp" alt="Ahmad Mujtaba" className="w-full h-96" />
               </div>
             </div>
             
