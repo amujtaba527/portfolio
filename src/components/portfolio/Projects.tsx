@@ -13,22 +13,40 @@ const projects = [
     button: "Not Available"
   },
   {
-    title: "Ecommerce Website",
-    description: "A modern e-commerce website built with Next.js, TypeScript, and Tailwind CSS.",
-    technologies: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
-    category: "Full-Stack",
-    status: "Production",
-    github: "https://github.com/amujtaba527/nextjs-ecomm",
-    link: "https://nextjs-ecomm.vercel.app/"
-  },
-  {
     title: "Mobile Chat Application",
-    description: "Cross-platform mobile application for chat with the feature f anonymous messaging in groups and offline sync capabilities and intuitive UI.",
+    description: "Cross-platform mobile application for chat with the feature of anonymous messaging in groups and offline sync capabilities and intuitive UI.",
     technologies: ["Flutter", "Dart", "Firebase", "SQLite"],
     category: "Mobile",
     status: "Development",
     github: "https://github.com/amujtaba527/chat_app",
     button: "Not Available"
+  },
+  {
+    title: "Complaint Management System",
+    description: "A Complaint Management System that allows users to submit complaints, view their status, assign them to staff members, and track their resolution.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL"],
+    category: "Full-Stack",
+    status: "Production",
+    github: "https://github.com/amujtaba527/ComplaintManagementSystem",
+    link: "https://complaint-manage.vercel.app/"
+  },
+  {
+    title: "Point of Sale System",
+    description: "A Point of Sale System that allows users to manage their inventory, process sales, generate reports, and all accounts related to the system.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL"],
+    category: "Full-Stack",
+    status: "Production",
+    github: "https://github.com/amujtaba527/bike-auto-pos",
+    link: "https://bike-auto-pos.vercel.app/"
+  },
+  {
+    title: "Ecommerce Website",
+    description: "A modern e-commerce website built with Next.js, TypeScript, and Tailwind CSS.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn UI"],
+    category: "Frontend",
+    status: "Production",
+    github: "https://github.com/amujtaba527/nextjs-ecomm",
+    link: "https://nextjs-ecomm.vercel.app/"
   },
   {
     title: "Sundown Landing Page",
